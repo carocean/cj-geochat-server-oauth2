@@ -1,0 +1,27 @@
+spring:
+  security:
+    clients:
+      - client_id: client1
+        client_secret: client1_secret
+      - client_id: platform
+        client_secret: platform_secret
+    auth_web:
+      host:  ${cj.geochat.security_auth_web_host:http://localhost:8060}
+      confirm_access_url: /confirm_access
+      login_url: /login
+    auth_server:
+      host: ${cj.geochat.security_auth_server_host:http://localhost:9000}
+      logout_url: /logout
+      token_url: /oauth/token
+    whitelist:
+      - /token
+      - /token/**
+      - /refresh_token
+      - /oauth2/**
+      - /logout
+    static_resources:
+      - /assets/**
+      - /css/**
+      - /images/**
+      - /js/**
+      - /img/**

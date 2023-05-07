@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cj-geochat-app-test/cj-geochat-app-test-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-app-test/cj-geochat-app-test-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-app-test/cj-geochat-app-test-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-app-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-app-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/cj-geochat-middle-test-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/cj-geochat-middle-test-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/cj-geochat-middle-test-remote/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/cj-geochat-middle-test-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/cj-geochat-server-authorization-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/cj-geochat-server-authorization-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/cj-geochat-server-authorization-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-gateway/cj-geochat-app-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-gateway/cj-geochat-server-gateway-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-gateway/cj-geochat-server-gateway-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-gateway/cj-geochat-server-gateway-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
