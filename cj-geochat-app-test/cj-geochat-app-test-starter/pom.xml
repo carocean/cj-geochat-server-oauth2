@@ -6,7 +6,7 @@
     <parent>
         <groupId>cj.geochat</groupId>
         <artifactId>cj-geochat-app-test</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>cj-geochat-app-test-starter</artifactId>
@@ -16,16 +16,16 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-<dependencies>
-    <dependency>
-        <groupId>cj.geochat</groupId>
-        <artifactId>cj-geochat-app-test-framework</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-        <groupId>cj.geochat</groupId>
-        <artifactId>cj-geochat-app-test-remote</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-    </dependency>
-</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>cj.geochat</groupId>
+            <artifactId>cj-geochat-app-test-framework</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cj.geochat</groupId>
+            <artifactId>cj-geochat-app-test-remote</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
