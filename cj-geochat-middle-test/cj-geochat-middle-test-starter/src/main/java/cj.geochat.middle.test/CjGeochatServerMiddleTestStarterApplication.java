@@ -7,7 +7,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication(scanBasePackages = {"cj.geochat.middle.test"})
 @EnableDiscoveryClient
-@EnableFeignClients(basePackages = "cj.geochat.middle.test")
 public class CjGeochatServerMiddleTestStarterApplication {
 
     public static void main(String[] args) {
