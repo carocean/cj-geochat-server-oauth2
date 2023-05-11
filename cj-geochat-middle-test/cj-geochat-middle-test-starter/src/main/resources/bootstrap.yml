@@ -1,11 +1,10 @@
 server:
-  #原8082
   port: 8070
   servlet:
     context-path: /
 spring:
   profiles:
-    active: ${life.spring.profiles.active:dev}
+    active: ${geochat.spring.profiles.active:dev}
   config:
     import: optional:swagger/swagger.yml
   mvc:

@@ -35,4 +35,4 @@ eureka:
     appname: ${spring.application.name:cj-geochat-server-gateway}
     #注册中心点状态跳转到swagger
     status-page-url: http://geochat-ecs.local:${server.port}${server.servlet.context-path}doc.html
-#    hostname: ${life.hostname:localhost}
+#    hostname: ${geochat.hostname:localhost}

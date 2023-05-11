@@ -17,37 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-banner</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-web</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-api</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-swagger</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-config</artifactId>
-            <type>pom</type>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-eureka</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+
     </dependencies>
     <build>
         <plugins>

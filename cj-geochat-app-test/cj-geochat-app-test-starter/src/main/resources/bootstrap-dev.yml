@@ -30,15 +30,15 @@ eureka:
     appname: cj-geochat-app-test
     #注册中心点状态跳转到swagger
     status-page-url: http://${spring.cloud.client.ip-address}:${server.port}doc.html
-    hostname: ${life.hostname:localhost}
+    hostname: ${geochat.hostname:localhost}
 app:
   test:
     feign:
       #如果feign调用的服务在docker内。注册中心会返回服务的容器内ip地址导致连接失败。因此需要适配
       #适配原理：通过spring的环境切换，在dev环境下配置适配器，在prod环境下没有此适配配置
-      #因此在声明feign时需要：@FeignClient(name = "cj-life-middle-uc",url = "${app.test.feign.adapter.docker.uc.url:}")
-      #意为：如果属性life.test.feign.adapter.docker.uc.url为空则无。因为在prod环境下没有配置该属性，因此为空。为空则会启动容器内ip调用。
+      #因此在声明feign时需要：@FeignClient(name = "cj-geochat-middle-uc",url = "${app.test.feign.adapter.docker.uc.url:}")
+      #意为：如果属性app.test.feign.adapter.docker.uc.url为空则无。因为在prod环境下没有配置该属性，因此为空。为空则会启动容器内ip调用。
       adapter:
         docker:
           uc:
-            url: localhost:30000
+            url: localhost:8070
