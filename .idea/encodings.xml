@@ -12,6 +12,11 @@
     <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/cj-geochat-middle-test-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cj-geochat-middle-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-asc/cj-geochat-server-asc-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-asc/cj-geochat-server-asc-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-asc/cj-geochat-server-asc-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-asc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cj-geochat-server-asc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/cj-geochat-server-authorization-framework/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/cj-geochat-server-authorization-remote/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cj-geochat-server-authorization/cj-geochat-server-authorization-starter/src/main/java" charset="UTF-8" />

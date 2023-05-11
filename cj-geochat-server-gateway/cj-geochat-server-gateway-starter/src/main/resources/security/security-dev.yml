@@ -1,6 +1,6 @@
 spring:
   security:
-    #认证服务中心或认证服务中心地址
+    #认证服务中心（不是认证服务中心地址）
     auth_server: ${cj.geochat.security_auth_server_host:http://localhost:9000}
     whitelist:
       - /*/wagger-ui.html**
@@ -11,6 +11,7 @@ spring:
       - /images/**
       - /js/**
       - /img/**
+      #以下是透出swagger，即doc.html
       - /*/webjars/**
       - /*/swagger-resources**
       - /*/*/api-docs**

@@ -32,7 +32,7 @@ public class ExampleClientDetailsService implements ClientDetailsService {
         clientDetails.setScope(Arrays.asList("all", "ROLE_ADMIN", "ROLE_USER"));
         clientDetails.setAutoApproveScopes(Arrays.asList("false"));
         Set<String> set = new HashSet();
-        set.add("http://localhost:8061");
+        set.add("http://localhost:8061/saas_app");
         clientDetails.setRegisteredRedirectUri(set);
         clientDetails.setAccessTokenValiditySeconds(7200);
         return clientDetails;
@@ -43,7 +43,7 @@ public class ExampleClientDetailsService implements ClientDetailsService {
         BaseClientDetails clientDetails = new BaseClientDetails();
         clientDetails.setClientId(client_id);
         clientDetails.setClientSecret(this.passwordEncoder.encode(client_id + "_secret"));
-        clientDetails.setAuthorizedGrantTypes(Arrays.asList("authorization_code", "refresh_token", "implicit", "sms_code", "tenant_code"));
+        clientDetails.setAuthorizedGrantTypes(Arrays.asList("authorization_code", "refresh_token", "implicit", "password", "sms_code", "tenant_code"));
         clientDetails.setScope(Arrays.asList("all", "ROLE_ADMIN", "ROLE_USER"));
         clientDetails.setAutoApproveScopes(Arrays.asList("true"));
         Set<String> set = new HashSet();
