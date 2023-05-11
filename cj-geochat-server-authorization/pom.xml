@@ -29,4 +29,18 @@
         <module>cj-geochat-server-authorization-remote</module>
         <module>cj-geochat-server-authorization-starter</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cj.geochat</groupId>
+                <artifactId>cj-geochat-server-authorization-framework</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>cj.geochat</groupId>
+                <artifactId>cj-geochat-server-authorization-remote</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

@@ -19,13 +19,11 @@
     <dependencies>
         <dependency>
             <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-middle-test-framework</artifactId>
-            <version>1.0.0</version>
+            <artifactId>cj-geochat-ability-feign</artifactId>
         </dependency>
         <dependency>
             <groupId>cj.geochat</groupId>
-            <artifactId>cj-geochat-ability-feign</artifactId>
-            <version>1.0.0</version>
+            <artifactId>cj-geochat-middle-test-framework</artifactId>
         </dependency>
     </dependencies>
     <build>

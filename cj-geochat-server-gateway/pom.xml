@@ -20,4 +20,13 @@
         <module>cj-geochat-server-gateway-framework</module>
         <module>cj-geochat-server-gateway-starter</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cj.geochat</groupId>
+                <artifactId>cj-geochat-server-gateway-framework</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
