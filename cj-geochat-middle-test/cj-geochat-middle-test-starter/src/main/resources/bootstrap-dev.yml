@@ -30,4 +30,4 @@ eureka:
     appname: cj-geochat-middle-test
     #注册中心点状态跳转到swagger
     status-page-url: http://${spring.cloud.client.ip-address}:${server.port}doc.html
-    hostname: ${geochat.hostname:localhost}
+    hostname: ${cj.geochat.hostname:localhost}
