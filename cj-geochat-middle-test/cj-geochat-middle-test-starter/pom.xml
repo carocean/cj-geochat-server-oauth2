@@ -116,7 +116,7 @@
                     <entryPoint>["java", "-jar", "${project.build.finalName}.jar"]</entryPoint>
                     <exposes>
                         <!--（！！！）这个暴露接口也要变化 -->
-                        <expose>10000</expose>
+                        <expose>8070</expose>
                     </exposes>
                     <!--docker的环境变量模拟在docker run 命令于中输入 -e 变量名-->
                     <!--此处定义的值是dockerfile运行时的默认值，在用docker-compose或run启动时可通过-e参数覆盖掉-->

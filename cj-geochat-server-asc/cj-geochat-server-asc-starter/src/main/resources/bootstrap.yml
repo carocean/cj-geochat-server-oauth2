@@ -5,7 +5,7 @@ server:
     context-path: /
 spring:
   profiles:
-    active: ${geochat.spring.profiles.active:dev}
+    active: ${cj.geochat.spring.profiles.active:dev}
   config:
     import: optional:swagger/swagger.yml
   mvc:
