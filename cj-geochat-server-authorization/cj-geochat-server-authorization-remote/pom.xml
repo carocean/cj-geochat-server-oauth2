@@ -21,6 +21,11 @@
             <groupId>cj.geochat</groupId>
             <artifactId>cj-geochat-ability-feign</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cj.geochat</groupId>
+            <artifactId>cj-geochat-middle-uc-framework</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

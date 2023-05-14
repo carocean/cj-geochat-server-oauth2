@@ -7,7 +7,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication(scanBasePackages = {"cj.geochat.server.authorization"})
 @EnableDiscoveryClient
-@EnableFeignClients(basePackages = "cj.geochat.server.authorization")
 public class CjGeochatServerAuthStarterApplication {
 
     public static void main(String[] args) {
