@@ -13,7 +13,7 @@ public class GatewaySecurityWorkbin extends SecurityWorkbin {
     @Override
     protected ICheckPermission createCheckPermission() {
         //所有中台的服务一律拦截掉，网关只充许geochat app通过，
-        return (antPathMatcher, role, accessUrl) ->
+        return (antPathMatcher,username, role,resourceId, accessUrl) ->
                 !antPathMatcher.match("/cj-geochat-middle-*/*/**",accessUrl);
     }
 }
