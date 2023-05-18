@@ -1,13 +1,12 @@
 package cj.geochat.server.authorization.workbin;
 
+import cj.geochat.ability.oauth2.userdetails.GeochatUser;
 import cj.geochat.middle.uc.LoginAccountCategory;
 import cj.geochat.middle.uc.UserStatus;
 import cj.geochat.server.authorization.remote.UserDetailsRemote;
-import cj.geochat.server.authorization.userdetails.GeochatUser;
 import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -34,7 +33,7 @@ public class GeochatUserDetailsService implements UserDetailsService {
 
     private UserDetails convertUserDetails(String openCode, cj.geochat.middle.uc.UserDetails userDetails) {
         var state = userDetails.getStatus() == UserStatus.normal ? true : false;
-        GeochatUser user = new GeochatUser(openCode, userDetails.getId(), userDetails.getPassword(), state, true, true, true,
+        GeochatUser user = new GeochatUser( userDetails.getId(),openCode, userDetails.getPassword(), state, true, true, true,
                 userDetails.getRoles().stream().map(role -> new SimpleGrantedAuthority(role)).collect(Collectors.toList())
         );
         return user;
